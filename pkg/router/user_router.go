@@ -1,4 +1,4 @@
-package http
+package router
 
 import (
 	service "github/stawuah/go-crud/internal/modules/users/services"

@@ -16,7 +16,7 @@ create:
 	migrate create -ext sql -dir db -seq $$name
 
 run:
-	go run main.go
+	go run cmd/api/main.go
 
 fixforce:
 	migrate -database "postgresql://stephenawuah@localhost:5432/vim?sslmode=disable" -path db/ force 3

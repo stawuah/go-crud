@@ -1,6 +1,7 @@
 package router
 
 import (
+	handler "github/stawuah/go-crud/internal/modules/users/handlers"
 	service "github/stawuah/go-crud/internal/modules/users/services"
 
 	"github.com/gin-gonic/gin"

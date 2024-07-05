@@ -15,6 +15,7 @@ func NewRouter(userService service.UserService) *gin.Engine {
 
 	r.GET("/users/:id", userHandler.GetUser)
 	r.POST("/users", userHandler.RegisterUser)
+	r.GET("/all/users", userHandler.GetAllUsers)
 
 	return r
 }
